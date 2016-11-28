@@ -90,4 +90,4 @@ bot.start(function(content, url) {
         process.exit(1)
     }
 });
-```js
+```
