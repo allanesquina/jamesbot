@@ -1,6 +1,11 @@
 # Jamesbot #
 
 A simple web crawler with a Mongodb-based queue.
+# Installation
+
+```
+$ npm install jamesbot
+```
 
 # How to use
 
@@ -20,7 +25,7 @@ bot.start(url, function(content, url) {
     // Show the current url
     console.log(url);
 
-    // Try to find the 'zelda' word in body text
+    // Try to find the 'luigi' word in body text
     if (text.indexOf('luigi') !== -1) {
       console.log('found', url);
       process.exit(1)

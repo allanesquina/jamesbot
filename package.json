@@ -14,6 +14,11 @@
   },
   "author": "Allan Esquina",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allanesquina/jamesbot.git"
+  },
+  "homepage": "https://github.com/allanesquina/jamesbot",
   "dependencies": {
     "cheerio": "^0.22.0",
     "lodash": "^4.17.2",
