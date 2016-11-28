@@ -13,7 +13,7 @@ bot.start(url, function(content, url) {
     // Show the current url
     console.log(url);
 
-    // Try to find the 'zelda' word in body text
+    // Try to find the 'zelda' word within body text
     if (text.indexOf('luigi') !== -1) {
       console.log('found', url);
       process.exit(1)

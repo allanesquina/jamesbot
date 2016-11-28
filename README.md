@@ -28,7 +28,7 @@ bot.start(url, function(content, url) {
     // Show the current url
     console.log(url);
 
-    // Try to find the 'luigi' word in body text
+    // Try to find the 'luigi' word within the body text
     if (text.indexOf('luigi') !== -1) {
       console.log('found', url);
       process.exit(1)
@@ -60,7 +60,7 @@ function init() {
 // Creating jamesbot instance
 var bot = Jamesbot({
     instanceName: 'MyManualInstance', // Optional
-    auto: false, // James will not add links on queue
+    auto: false, // James will not add links to queue
     onStart: init
 });
 
@@ -84,7 +84,7 @@ bot.start(function(content, url) {
         console.log('Link added manually by init funciton');
     }
 
-    // Try to find the 'luigi' word in body text
+    // Try to find the 'luigi' word within the body text
     if (text.indexOf('luigi') !== -1) {
         console.log('found', url);
         process.exit(1)
