@@ -6,7 +6,7 @@
     "bot",
     "web",
     "crawler",
-    "parse",
+    "parse"
   ],
   "main": "./index.js",
   "scripts": {

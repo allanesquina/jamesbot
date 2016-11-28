@@ -1,6 +1,7 @@
 # Jamesbot #
 
 A simple web crawler with a Mongodb-based queue.
+
 # Installation
 
 ```
